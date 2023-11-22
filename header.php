@@ -36,18 +36,28 @@
                 </div>
             </div>
 
-            <button type="button" class="btn">
-                <img src="assets/cart-shopping-solid.png" alt="Cart" width="20" height="auto">
-            </button>
-
-            <button type="button" class="btn">
-                <img src="assets/user-solid.png" alt="Cart" width="20" height="auto">
-            </button>
+            <a href="cart.php">
+                <button type="button" class="btn">
+                    <img src="assets/cart-shopping-solid.png" alt="Cart" width="20" height="auto" href="cart.php">
+                </button>
+            </a>
+            
+            <div class="dropdown-center">
+                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/user-solid.png" alt="Cart" width="20" height="auto">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">My Account</a></li>
+                    <li><a class="dropdown-item" href="#">Become a Seller</a></li>
+                </ul>
+            </div>
 
             <!-- Use justify content = space between in css -->
             <form class="d-flex"  role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <a href="products.php">
+                    <button type="button" class="btn btn-outline-success" type="submit">Search</button>
+                </a>
             </form>
         </div>
     </nav>
