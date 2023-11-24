@@ -12,6 +12,11 @@
                 <div class="col-4">
                     <div class="card">
                         <img src="assets/thrift1.jpg.webp" class="card-img-top" alt="Checked Shirt">
+                        <div class="card-img-overlay">
+                            <button type="button" class="btn">
+                                <img src="assets/x-solid.png" alt="x" width="20" height="auto" href="#">
+                            </button>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Checked Shirt</h5>
                             <p class="card-text">&euro; 24.00</p>
@@ -32,6 +37,11 @@
                 <div class="col-4">
                     <div class="card">
                         <img src="assets/thrift4.heic.webp" class="card-img-top" alt="Heavy Jacket in Green">
+                        <div class="card-img-overlay">
+                            <button type="button" class="btn">
+                                <img src="assets/x-solid.png" alt="x" width="20" height="auto" href="#">
+                            </button>
+                        </div>
                         <div class="card-body">
                             <h5 class="card-title">Heavy Jacket in Green</h5>
                             <p class="card-text">&euro; 150.00</p>
@@ -70,7 +80,7 @@
                         </div>
 
                         <div class="card-body">
-                            <a class="btn btn-secondary w-100">Continue Shopping</a>
+                            <a class="btn btn-secondary w-100" href="products.php">Continue Shopping</a>
                         </div>
                     </div>
                 </div>

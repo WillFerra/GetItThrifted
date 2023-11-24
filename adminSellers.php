@@ -41,25 +41,37 @@
                             <span>Matt Bartolo</span>
                             <span>Products Online: 5</span>  
                             <span>Items Previously Sold: 10</span>  
-                            <button class="edit-button">Edit</button>                          
+                            <span>
+                                <button class="edit-button">Edit Role</button> 
+                                <button class="edit-button">Remove Seller</button> 
+                            </span>         
                         </li>
                         <li class="product-item">
                             <span>Brandon Vella</span>  
                             <span>Products Online: 10</span>  
                             <span>Items Previously Sold: 19</span>  
-                            <button class="edit-button">Edit</button>                          
+                            <span>
+                                <button class="edit-button">Edit Role</button> 
+                                <button class="edit-button">Remove Seller</button> 
+                            </span>                          
                         </li>
                         <li class="product-item">
                             <span>Stacy Bonnici</span> 
                             <span>Products Online: 8</span>  
                             <span>Items Previously Sold: 4</span>   
-                            <button class="edit-button">Edit</button>                          
+                            <span>
+                                <button class="edit-button">Edit Role</button> 
+                                <button class="edit-button">Remove Seller</button> 
+                            </span>                       
                         </li>
                         <li class="product-item">
                             <span>Victor Mifsud</span> 
                             <span>Products Online: 3</span>  
                             <span>Items Previously Sold: 4</span>   
-                            <button class="edit-button">Edit</button>                          
+                            <span>
+                                <button class="edit-button">Edit Role</button> 
+                                <button class="edit-button">Remove Seller</button> 
+                            </span>                          
                         </li>
                     </ul>
 
@@ -70,12 +82,18 @@
                         <li class="product-item">
                             <span>Chris Aguis</span>
                             <span>Date Requested: 21.11.23</span>
-                            <button class="edit-button">Confirm New Seller</button>                          
+                            <span>
+                                <button class="edit-button">Confirm Request</button> 
+                                <button class="edit-button">Delete Request</button> 
+                            </span>                           
                         </li>
                         <li class="product-item">
                             <span>Aiden Zarb</span>  
                             <span>Date Requested: 03.11.23</span>
-                            <button class="edit-button">Confirm New Seller</button>                          
+                            <span>
+                                <button class="edit-button">Confirm Request</button> 
+                                <button class="edit-button">Delete Request</button> 
+                            </span>                        
                         </li>
                     </ul>
                 </div>
